@@ -6,34 +6,11 @@
     <title>My First PHP</title>
 </head>
 <body>
-    <?php 
-    
-        $name = "Jay Millena";
-        $age = 93;
-        $address = "Albay";
-        $isGamer = true;
-        $isTeacher = true;
-        $isStudent = true;
-        $weight = 70.2;
-        $grade = 1.5;
-
-        echo "Hello $name <br/>"; 
-        echo "I am $age years old <br/>";
-        echo "I live in $address <br/>";
-        
-        echo "Next year I will be ". $age + 1 ." years old <br/>";
-
-        if (!$isGamer) 
-        {
-           echo "I not am a gamer"; 
-        }
-        else 
-        {
-            echo "I'm a gamer";
-        }
-
-        var_dump($isGamer);
-        
-    ?>
+    <form action="" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter your fullname" required />
+        <textarea name="comment" placeholder="Enter your comment" required ></textarea>
+        <input type="submit" name="send" value="Send">
+    </form>
 </body>
 </html>
