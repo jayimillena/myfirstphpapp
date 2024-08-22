@@ -20,7 +20,7 @@
                             '$comment'
                         )";
 
-        $select_db = mysqli_select($conn, 'myfirstphp');
+        $select_db = mysqli_select_db($conn, 'myfirstphp');
         $save = mysqli_query($conn, $insert_query);
 
         if($save)
