@@ -11,7 +11,7 @@
         $name = "Jay Millena";
         $age = 93;
         $address = "Albay";
-        $isGamer = false;
+        $isGamer = true;
         $isTeacher = true;
         $isStudent = true;
         $weight = 70.2;
@@ -31,6 +31,8 @@
         {
             echo "I'm a gamer";
         }
+
+        var_dump($isGamer);
         
     ?>
 </body>
