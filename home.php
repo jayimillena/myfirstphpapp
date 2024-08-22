@@ -8,7 +8,15 @@
 <body>
     <?php 
     
-        $name = "Pepe Pacheco";
+        $name = "Jay Millena";
+        $age = 93;
+        $address = "Albay";
+        $isGamer = false;
+        $isTeacher = true;
+        $isStudent = true;
+        $weight = 70.2;
+        $grade = 1.5;
+
         echo "Hello " . $name; 
         
     ?>
