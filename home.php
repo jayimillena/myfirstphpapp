@@ -22,6 +22,15 @@
         echo "I live in $address <br/>";
         
         echo "Next year I will be ". $age + 1 ." years old <br/>";
+
+        if (!$isGamer) 
+        {
+           echo "I not am a gamer"; 
+        }
+        else 
+        {
+            echo "I'm a gamer";
+        }
         
     ?>
 </body>
