@@ -17,7 +17,11 @@
         $weight = 70.2;
         $grade = 1.5;
 
-        echo "Hello " . $name; 
+        echo "Hello $name <br/>"; 
+        echo "I am $age years old <br/>";
+        echo "I live in $address <br/>";
+        
+        echo "Next year I will be ". $age + 1 ." years old <br/>";
         
     ?>
 </body>
